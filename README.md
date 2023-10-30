@@ -23,6 +23,8 @@
 18. install clamav and scan:  https://docs.e2enetworks.com/security/bestpractice/clamav_scan.html
 
 things to try after doing all of those things: 
-prevent normal users from using dmseg:  sudo sysctl -w kernel.dmesg_restrict=1
-disable snmpd
-disable ircd
+1. prevent normal users from using dmseg:  sudo sysctl -w kernel.dmesg_restrict=1
+2. disable snmpd
+3. disable ircd
+4. double check prohibited apps
+5. double check critical service hardening
